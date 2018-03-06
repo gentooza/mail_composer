@@ -14,3 +14,15 @@ ourName = "my Cooperative SC"
 costumerLogo = "custom.bmp"
 costumerName = "your cooperative SC" 
 
+panelUser = "username"
+panelPass = "pass"
+
+domain = "costumer.coop"
+phpmyadminRoute = domain + ":8080/phpmyadmin"
+panelRoute = domain + ":8080"
+
+webmail = domain + "/webmail"
+
+ftpPort = 41
+
+
