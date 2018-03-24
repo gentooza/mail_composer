@@ -1,19 +1,13 @@
 '''license header
 '''
 
-import header
-import body
+import compose
 
 f = open('mail.html','w')
 
-headerMessage = header.header() 
+'''compose mail'''
+message = compose.composeMail()
+'''send it?'''
 
-#greetingsMessage = greetings.greetings()
-body = body.body()
-'''
-<body><p>Hello World!</p></body>
-</html>'''
-
-message = headerMessage + body
 f.write(message)
 f.close()
