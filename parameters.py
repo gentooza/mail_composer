@@ -10,18 +10,22 @@ language = "spanish"
 
 ourLogo = "custom.bmp"
 ourName = "my Cooperative SC"
+ourContact = "ourMail@ours.coop"
+ourSignature = "signature.html"
 
 costumerLogo = "custom.bmp"
 costumerName = "your cooperative SC" 
+costumerContact = ""
 
 panelUser = "username"
 panelPass = "pass"
 
 domain = "costumer.coop"
-phpmyadminRoute = domain + ":8080/phpmyadmin"
-panelRoute = domain + ":8080"
+phpmyadminRoute = ":8080/phpmyadmin"
+panelRoute = ":8080"
 
-webmail = domain + "/webmail"
+webmail = "/webmail"
+mailman = "/cgi-bin/mailman"
 
 ftpPort = 41
 
