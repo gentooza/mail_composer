@@ -11,12 +11,20 @@ import parameters
 
 
 def header():
+    message = '''<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style>
+    body  
+    {
+        font-family: 'Roboto';    
+    }
+    </style>'''
     if(parameters.costumerLogo != ""):
-        message = """<head><center><img src=\"""" + parameters.ourLogo + """\"alt=\"our logo here\" height=\"150\" width=\"200\"></center>
-        <center><img src=\"""" + parameters.costumerLogo + """\"alt=\"your logo here\" height=\"150\" width=\"200\"></center></head>
-        """
+        message += '''<center><img src=\"''' + parameters.ourLogo + '''\"alt=\"our logo here\" height=\"150\" width=\"200\"></center>
+        <center><img src=\"''' + parameters.costumerLogo + '''\"alt=\"your logo here\" height=\"150\" width=\"200\"></center></head>
+        '''
     else:
-         message = """<head><center><img src=\"""" + parameters.ourLogo + """\"alt=\"our logo here\" height=\"150\" width=\"200\"></center>
-        </head>"""
+         message += '''<center><img src=\"''' + parameters.ourLogo + '''\"alt=\"our logo here\" height=\"150\" width=\"200\"></center>'''
+    message += '''</head>'''
         
     return message

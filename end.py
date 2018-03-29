@@ -11,8 +11,8 @@ def end():
     </p>'''
     try:
         ourSignature = open(parameters.ourSignature,'r')
-        message += ourSignature.read()       
+        message += '''</body> </html>''' + ourSignature.read()       
     except:
-        message += '''<p> Un cariñoso abrazo de ''' + parameters.ourName  + '''</p>'''
+        message += '''<p> Un cariñoso abrazo de ''' + parameters.ourName  + '''</p></body> </html>'''
     
     return message
