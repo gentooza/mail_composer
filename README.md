@@ -1,12 +1,14 @@
 # mail_composer
 my mail composer for costumers
 
+# what it does
+Simply configure the application's parameter.py file, and send a standard greetings mail to a costumer
 
-##LICENSE
+## LICENSE
 + copyright by Joa Cuéllar. joa.cuellar(at)riseup.net
 + GPLV3 or later
 
-##ROADMAP
+## ROADMAP
 + desgined by templates
     - greeting template
     - full support greeting template
@@ -14,10 +16,4 @@ my mail composer for costumers
     - change in service conditions
     - billing
     - ...
-+ well structured mail, with all services:
-	- ISP panel
-	- webmail && mail ports for IMAP, POP3, SMTP
-	- mailman
-+ beautiful HTML format, UTF-8, etc.
-+ automatic SMTP mail sending if requested
 + database connection (for it' s integration with odoo, ispconfig...)

@@ -29,4 +29,11 @@ mailman = "/cgi-bin/mailman"
 
 ftpPort = 41
 
+'''SMTP parameters'''
+smtpServer = 'myServer.coop'
+smtpUser = 'myUser'
+smtpPassw = 'myPassword'
+sender = ourContact
+recipients = ['yourMail.coop']
+
 
